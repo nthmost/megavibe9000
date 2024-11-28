@@ -1,0 +1,80 @@
+/* Form.css */
+
+body {
+  background-color: #000;
+  color: #ff007f;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.header {
+  font-size: 3.5rem;
+  color: #ff007f;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #ff007f, 0 0 20px #8000ff;
+}
+
+.text-area {
+  width: 90%;
+  max-width: 500px;
+  height: 150px;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 2px solid #8000ff;
+  background-color: #000;
+  color: #00ffff;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 0 10px #8000ff;
+  margin-bottom: 20px;
+}
+
+.text-area::placeholder {
+  color: #8000ff;
+  font-style: italic;
+}
+
+.submit-button {
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  color: #000;
+  background: linear-gradient(45deg, #ff007f, #8000ff, #00ffff);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #00ffff, 0 0 20px #ff007f;
+  transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+  background: linear-gradient(45deg, #8000ff, #ff007f, #00ffff);
+  box-shadow: 0 0 20px #ff007f, 0 0 30px #00ffff;
+  transform: scale(1.05);
+}
+
+.submitted-text {
+  margin-top: 20px;
+  max-width: 600px;
+  color: #ff007f;
+  text-align: center;
+}
+
+.submitted-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #8000ff;
+}
+
+.submitted-text p {
+  font-size: 1.2rem;
+  color: #00ffff;
+  text-shadow: 0 0 5px #00ffff;
+}
+
